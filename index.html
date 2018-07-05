@@ -41,9 +41,9 @@
         <img id="p50-thumb" crossorigin="anonymous" src="img/p50_thumb.jpg">
         <img id="p51-thumb" crossorigin="anonymous" src="img/p51_thumb.jpg">
 
-	<!--
+	
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
-	-->
+	
 
         <script id="link" type="text/html">
           <a-entity class="link"
@@ -53,10 +53,8 @@
 		    event-set__2="_event: mouseup; scale: 1.2 1.2 1"
 		    event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
 		    event-set__4="_event: mouseleave; scale: 1 1 1"
-		    set-image="on: click; target: #image-360; src: ${src}">
-		<!--    
-	    sound="on: click; src: #click-sound">
-	    -->
+		    set-image="on: click; target: #image-360; src: ${src}"   
+		    sound="on: click; src: #click-sound">
 	  </a-entity>
         </script>
       </a-assets>
