@@ -78,17 +78,27 @@
         <a-entity template="src: #link" data-src="#cms3" data-thumb="#cms3-thumb"></a-entity>
       </a-entity>
       
-      <!--
       <a-entity camera look-controls>
-        <a-cursor id="cursor"
+     
+	<!--
+	<a-cursor id="cursor"
           animation__click="property: scale; startEvents: click; from: 0.1 0.1 0.1; to: 1 1 1; dur: 150"
           animation__fusing="property: fusing; startEvents: fusing; from: 1 1 1; to: 0.1 0.1 0.1; dur: 1500"
           event-set__1="_event: mouseenter; color: springgreen"
           event-set__2="_event: mouseleave; color: black"
           fuse="true"
           raycaster="objects: .link"></a-cursor>
+	-->
+
+	 <a-cursor id="cursor"                                                                                                                                                      
+		   event-set__1="_event: mouseenter; color: springgreen"                                                                                                               
+		   event-set__2="_event: mouseleave; color: black"                                                                                                                     
+		   fuse="true"                                                                                                                                                      
+		   raycaster="objects: .link">
+	 </a-cursor>     
+      
       </a-entity>
-      -->
+     
 
       <a-text font="kelsonsans" value="" width="10" position="-2.25 -5.0 -4.0" rotation=""></a-text>
 
