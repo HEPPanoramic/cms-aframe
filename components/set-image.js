@@ -22,6 +22,7 @@ AFRAME.registerComponent('set-image', {
       // Fade out image.
       //data.target.emit('set-image-fade');
       // Wait for fade to complete.
+
       setTimeout(function () {
         // Set image.
         data.target.setAttribute('material', 'src', data.src);
