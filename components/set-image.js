@@ -16,12 +16,13 @@ AFRAME.registerComponent('set-image', {
     var data = this.data;
     var el = this.el;
 
-    this.setupFadeAnimation();
+    //this.setupFadeAnimation();
 
     el.addEventListener(data.on, function () {
       // Fade out image.
-      data.target.emit('set-image-fade');
+      //data.target.emit('set-image-fade');
       // Wait for fade to complete.
+
       setTimeout(function () {
         // Set image.
         data.target.setAttribute('material', 'src', data.src);
